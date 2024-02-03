@@ -19,7 +19,22 @@
     font-family: var(--fontePadrao);
     color: var(--textoBranco);
 }
-
+h1{
+    font-size: 80px;
+    font-weight: var(--forte);
+}
+h2{
+    font-size: 25px;
+    font-weight: 800;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;    
+    font-weight: var(--mediano);
+}
 
 #secaoNavegacao{
     width: 90%;
@@ -28,17 +43,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
-    font-weight: var(--mediano);
     background-color: var(--cinzaDNC);
-    font-size: 25px;
     line-height: 30px;
-}
-ul{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
 }
 
 #navegacaoPrincipal{
